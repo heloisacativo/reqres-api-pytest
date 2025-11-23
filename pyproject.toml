@@ -1,0 +1,22 @@
+[project]
+name = "regres-api-pytest"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "heloisacativo",email = "heloisacativo@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pytest (>=9.0.1,<10.0.0)",
+    "pytest-bdd (>=8.1.0,<9.0.0)",
+    "requests (>=2.32.5,<3.0.0)",
+    "python-dotenv (>=1.2.1,<2.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "regres_api_pytest", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
