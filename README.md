@@ -21,6 +21,10 @@ Testes de integração na API pública [ReqRes](https://reqres.in/) utilizando *
    ```sh
    poetry install
    ```
+   **Ou, se preferir usar pip:**
+   ```sh
+   pip install -r requirements.txt
+   ```
 
 3. Crie um arquivo `.env` na raiz do projeto com o seguinte conteúdo:
    ```
